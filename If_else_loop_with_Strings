@@ -1,0 +1,16 @@
+userEntry = input("Please enter a 5 word sentence: ") #takes user entry
+print("Your entry was" + userEntry)
+userChoice = str(input("Are you happy with this? Enter 'y' for yes or 'n' for no and 'm' for maybe\n")) # prompt the user to continue
+
+if userChoice == 'y': #if they enter y
+    print("glad you are happy with you choice", userChoice)
+else:
+        if userChoice == 'n': #if they enter n
+           print("No! Well bad luck, no backsies", userChoice)
+        else:
+            if userChoice == 'm': # if they enter m
+                print("Maybe! If you sit on the fence you get a sore ass!", userChoice)
+            else:
+                print("you didn't select either of the options 'y' or 'n' or 'm' instead you selected","'", userChoice,"'")
+                print("Don't go against the grain, goodbye!")
+exit()
