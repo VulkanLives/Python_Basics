@@ -27,25 +27,25 @@ userInput2 = int(input("Enter your second number: "))
 
 print("what would like to do with these numbers?")
 userChoice =int(input("<1> = addition, <2> = subtraction, <3> = divsion, <4> = multiply"))
-print(userChoice)
+print(userChoice,"<----TEST CASE, FOR DEBUG PURPOSES ONLY")
 
 if userChoice == 1:
     print("you chose to add")
-    addition(userInput1,userInput2)             # THIS IS NOW OBVIOUS WHAT THESE CALLS DO
+    addition(userInput1,userInput2)
 else:
     if userChoice == 2:
         print("you chose to subract")
-        Subtraction(userInput1,userInput2)          # NOTE TO SELF THOUGH:
+        Subtraction(userInput1,userInput2)
     else:
         if userChoice == 3:
             print("you chose to divide")
-            Divide(userInput1,userInput2)                   #PRETTY SURE THERE IS A REASON WE DON'T START FUNCTIONS WITH
+            Divide(userInput1,userInput2)
         else:
             if userChoice ==4:
                 print("you chose to multilpy")
-                Multiply(userInput1,userInput2)                 # A CAPITAL LETTER, MUST GOOGLE THIS
+                Multiply(userInput1,userInput2)
             else:
-                print("that was not a valid choice")
+                print("guess you don't play by the rules") #IF THE USER DOESN'T A PRE-DESCRIBED OPTION, EVERYTHING ELSE SHOULD SPEAK FOR ITSELF
 
 
 
