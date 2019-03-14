@@ -1,3 +1,6 @@
+#THIS PROGRAM IS ALMOST REDUNDENT IN THE WAKE OF Number_Advanced4.py BUT A GOOD REFERNECE POINT FOR THE CHANGES....
+# I MADE IN Number_Advanced3-2.py
+
 def addition (number1 ,number2): # function to add to the numbers it is passed
     num1 = number1
     num2 = number2
@@ -35,7 +38,7 @@ def multiply (number1 ,number2):  # function to multiply to the numbers it is pa
 userInput1 = int(input("Enter your first number: "))
 userInput2 = int(input("Enter your second number: "))
 
-
+addition(userInput1,userInput2)
 subtraction(userInput1,userInput2)
 divide(userInput1,userInput2)
 multiply(userInput1,userInput2)
@@ -49,12 +52,6 @@ print(varExample,"2nd test line")
 #and the call on the data and use how I please
 
 print("THIS IS TAKEN FURTHER IN NEXT CLASS 'Number_Advanced4.py' and will put the functions above into their own class called 'NumberCruncher'")
-
-
-
-
-
-
 
 
 
